@@ -1,0 +1,111 @@
+/* tablet */
+@media (min-width: 46.1875em) and (max-width: 64em)  {
+    
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* tablet and mobile */
+@media (max-width: 63.9375em) {
+    
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+
+    .btn {
+        padding: 15px 14px;
+    }
+
+    .s-full-width{
+        width: 100%;
+    }
+
+    .socials-list{
+        font-size: 48px;
+
+    }
+
+    #footer .socials-list a{
+        padding: 24px 0;
+        display: inline-block;
+        color: black;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+
+
+    .s-col-full{
+        width: 100%;
+    }
+  
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 2px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial; /* gia tri mat dinh  */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+ 
+    #content .member-item{
+        width: 100%;
+    }
+
+    #contnet .member-img{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+    
+    .contact-info{
+        line-height: 2;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-supmit-btn{
+        font-size: 16px;
+    }
+}
+
